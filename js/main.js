@@ -2,10 +2,6 @@ const box = document.querySelector('.box')
 const API = 'https://jsonplaceholder.typicode.com/posts'
 
 
-
-3 - usul
-
-
 const render = (data) => {
     box.innerHTML = data.map((item) => {
         return `
